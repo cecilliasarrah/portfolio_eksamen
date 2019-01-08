@@ -1,0 +1,103 @@
+img {
+    width: 100%;
+}
+
+/*___________________ Menu bar _____________________*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+/*_______________ Menu bar slut _________________*/
+
+/*_____________billeder____________*/
+
+.center_billede {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 40vw;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 40vw;
+}
+
+/*_____________billeder slut____________*/
+
+/*_____________tekst____________*/
+
+.overskrift {
+    font-family: helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 4vw;
+}
+
+.underoverskrift {
+    font-family: helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin: 4vw;
+}
+
+.brodtekst {
+    font-family: helvetica, sans-serif;
+    font-size: 1.0em;
+    font-weight: 100;
+    margin: 5vw;
+}
+
+.center_knap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 40vw;
+}
+
+/*_____________tekst slut____________*/
+
+/*_______________ Portfolio.html _________________*/
+
+#box {
+    background-color: lightcyan;
+    width: 98vw;
+    height: 12vw;
+    top: 1vw;
+    left: 50vw;
+}
+
+.box {
+    height: 700px;
+    width: 380px;
+    background-color: whitesmoke;
+
+}
+
+.underoverskrift {}
