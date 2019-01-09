@@ -2,6 +2,12 @@ img {
     width: 100%;
 }
 
+body {
+    background-color: white
+}
+
+
+
 /*___________________ Menu bar _____________________*/
 
 ul {
@@ -59,19 +65,29 @@ li a:hover {
     margin: 4vw;
 }
 
-.underoverskrift {
+.forside_tekst {
     font-family: helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 0.7em;
     font-weight: 100;
     margin: 4vw;
 }
 
-.brodtekst {
+h2 {
+    font-family: helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    /*    margin: 4vw;*/
+}
+
+h3 {
     font-family: helvetica, sans-serif;
     font-size: 1.0em;
     font-weight: 100;
-    margin: 5vw;
+    text-align: center;
+    /*    margin: 4vw;*/
 }
+
 
 .center_knap {
     display: block;
@@ -79,12 +95,34 @@ li a:hover {
     margin-right: auto;
     margin-top: auto;
     width: 40vw;
+    padding: 5vw;
+}
+
+p {
+    font-family: helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+a {
+    font-family: helvetica, sans-serif;
+    font-weight: 100;
+    /*    text-decoration: none;*/
+    color: black;
+}
+
+adresse {
+    margin: 20vw;
 }
 
 /*_____________tekst slut____________*/
 
+
+
 /*_______________ Portfolio.html _________________*/
 
+/*
 #box {
     background-color: lightcyan;
     width: 98vw;
@@ -99,5 +137,70 @@ li a:hover {
     background-color: whitesmoke;
 
 }
+*/
+
+/*________________ billeder ________________*/
 
 .underoverskrift {}
+
+@media screen and (min-width: 1024px) {
+
+    .sectionwrapper1 {
+        display: flex;
+        margin: 10vw;
+        flex-direction: row-reverse;
+    }
+
+    .sectionwrapper2 {
+        display: flex;
+        margin: 10vw;
+    }
+
+    .billeder {
+        width: 50vw;
+
+    }
+
+    .tekst {
+        width: 50vw;
+        text-align: center;
+    }
+}
+
+/*_______________ Portfolio slut _________________*/
+
+/*_______________ pulse knap _________________*/
+
+
+.portfolio_knap {
+    background-image: url(billeder/SVG/se_portfolio_knap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    top: 5vw;
+    left: 10vw;
+    z-index: 2;
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+
+/*_______________ pulse knap slut _________________*/
